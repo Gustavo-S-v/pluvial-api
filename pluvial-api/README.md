@@ -52,13 +52,12 @@ docker build -t pluvial-api .
 docker run -p 8080:8080 -e DB_USER=seu_usuario -e DB_PASSWORD=sua_senha pluvial-api
 ```
 
-Teste: http://localhost:8080/api/status
-
 ## API no Render
-<!-- Preencher com a URL publicada -->
+https://pluvial-api.onrender.com
+https://pluvial-api.onrender.com/api/status
+https://pluvial-api.onrender.com/api/regioes
 
 ## Video
 <!-- Preencher com o link do YouTube nao listado -->
 
-## Uso de IA generativa
-<!-- Declarar as ferramentas usadas e para que (ajustar conforme o que o grupo realmente fez) -->
+
