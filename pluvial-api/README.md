@@ -3,7 +3,9 @@
 Global Solution 2026/2 - Domain Driven Design Using Java (FIAP)
 
 ## Integrantes
-<!-- Preencher: RM - Nome completo - Turma -->
+RM 572560 - Gustavo Santos Viana
+RM 573616 - Francisco Halison
+RM 573299 - Pedro Vinicius 
 
 ## Sobre
 API RESTful em Java com Spring Boot que apoia o monitoramento de enchentes: regioes monitoradas, sensores (pluviometros e sensores de nivel de rio) e as leituras enviadas por eles. O nivel de risco de cada regiao e calculado a partir das leituras.
@@ -47,17 +49,17 @@ Java 17, Spring Boot 3, JDBC (DAO), Oracle, ModelMapper, Bean Validation, Docker
 2. Definir as variaveis de ambiente `DB_USER` e `DB_PASSWORD` (e `DB_URL`, se for outra URL).
 3. Executar a classe `PluvialApplication` ou usar Docker:
 
-```bash
+bash
 docker build -t pluvial-api .
 docker run -p 8080:8080 -e DB_USER=seu_usuario -e DB_PASSWORD=sua_senha pluvial-api
-```
+
 
 ## API no Render
 https://pluvial-api.onrender.com
 https://pluvial-api.onrender.com/api/status
 https://pluvial-api.onrender.com/api/regioes
 
-## Video
-<!-- Preencher com o link do YouTube nao listado -->
+## Uso de IA generativa
+Foi utilizada IA generativa Claude para a implementação do projeto no render
 
 
